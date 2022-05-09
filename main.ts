@@ -4,5 +4,20 @@ basic.forever(function () {
         basic.showString("T=")
         basic.showNumber(input.temperature())
         basic.showString("DEGRES")
+    } else {
+        basic.showLeds(`
+            . . # . .
+            . # . . .
+            # # # # #
+            . # . . .
+            . . # . .
+            `)
+        basic.showLeds(`
+            . . . . .
+            . . . . .
+            . . . . .
+            . . . . .
+            . . . . .
+            `)
     }
 })
